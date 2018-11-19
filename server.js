@@ -51,6 +51,13 @@ res.render('about.hbs', {
 });
 });
 
+
+app.get('/projects', (req, res) => {
+	res.render('projects.hbs', {
+		pageTitle: 'projects'
+	});
+});
+
 //  /bad - send back json with erroeMessage
 
 
